@@ -1,0 +1,44 @@
+.Categories{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.oneCategorie{
+    position:relative;
+    display:flex;
+    flex-wrap: wrap;
+    width: 300px;
+    text-align: center;
+    margin: 60px;
+}
+
+.image-categorie{
+    width: 200px;
+    border-radius: 30px;
+    border: 1px solid #000;
+}
+
+.add-categorie img {
+    width: 50px;  
+}
+
+.btn-categorie{
+    width: 100vw;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.name-categorie{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-categories{
+    letter-spacing: 0.50em;
+    margin-left: 60px;
+}
