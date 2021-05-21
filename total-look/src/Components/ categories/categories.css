@@ -1,9 +1,7 @@
 .Categories{
     width: 100vw;
     display: flex;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap;    
 }
 
 .oneCategorie{
@@ -16,7 +14,7 @@
 }
 
 .image-categorie{
-    width: 200px;
+    width: 100%;
     border-radius: 30px;
     border: 1px solid #000;
 }
